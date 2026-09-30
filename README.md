@@ -70,6 +70,10 @@ npm test
 
 The test command runs the core test suite and an Electron smoke test. Core tests do not require VLC.
 
+For the complete Windows/VLC workflow, use the checked-in
+[`sample`](sample) media pair and follow the
+[`VLC MVP acceptance checklist`](docs/vlc-mvp-acceptance.md).
+
 ## Limitations
 
 - VLC reports playback time at whole-second precision through the selected interface.
